@@ -26,6 +26,10 @@ body {
 .carousel-item {
   height: 32rem;
 }
+
+.carouselLogos-item{
+    height: 100% !important;
+}
 .carousel-item > img {
   position: absolute;
   top: 0;
@@ -38,8 +42,9 @@ body {
   width: 70px;
   height: 36px;
   border: 1px solid #222; }
-.carousel-indicators .active {
-  border: 1px solid #ff7474; }
+
+/* .carousel-indicators .active {
+  border: 1px solid #ff7474; } */
 
 /* MARKETING CONTENT
 -------------------------------------------------- */
