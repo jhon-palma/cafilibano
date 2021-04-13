@@ -1,0 +1,228 @@
+@font-face {
+    font-family: 'Handel Gothic';
+    src: url('../fonts/HandelGothic.eot');
+    src: url('../fonts/HandelGothic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/HandelGothic.woff2') format('woff2'),
+        url('../fonts/HandelGothic.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+//-------------------------------------
+// CONFIGURACIÓN DE COLORES
+//-------------------------------------
+$rojo: #df0003;
+$verde: #009846;
+
+
+.bg-dark {
+    background-color: $rojo !important;
+}
+
+.bg-azul {
+    background-color: $verde !important;
+}
+
+.text-danger {
+    color: $verde !important;
+}
+
+.text-secondary {
+    color: $rojo !important;
+}
+
+.carousel-title{
+    font-family: 'Handel Gothic';
+    color: $rojo;
+    font-size: 4.5rem;
+}
+
+.carousel-subtitle{
+    color: $verde!important;
+    font-size: 2.0rem !important;
+}
+
+/*-----------------------------------------
+5. ESTILOS PARA ".esal"
+------------------------------------------*/
+#esal::before{
+    position: absolute;
+    background: rgba(0,0,0,0.50);
+    left:0;
+    top:0;
+    right:0;
+    bottom:0;
+
+}
+
+.esal a{
+    color: $verde;
+}
+
+.news{
+    margin-top: 1.2rem;
+}
+
+.module {
+  /* width: 250px; */
+  margin: 1em 0 1em 0;
+  overflow: hidden;
+}
+
+.module p {
+  margin: 0;
+}
+
+.line-clamp {
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+}
+
+.panel{
+    font-family: 'Handel Gothic';
+    font-weight: 500;
+    font-style: normal;
+    color: $rojo;
+}
+
+h2{
+    color: $rojo;
+}
+.title{
+    color: $verde;
+    font-weight: bold;
+}
+
+.product-description{
+    color: black;
+    text-align: justify;
+}
+
+.product-price{
+    color: black;
+}
+
+.aviso{
+    background-image: url("../img/cafe.jpg");
+}
+
+.navbar-dark .navbar-nav .nav-link{
+    color: rgb(255,255,255) !important;
+}
+
+.navbar-dark li{
+    font-weight: 600;
+}
+
+.navbar{
+    -webkit-box-shadow: 0 10px 20px -12px rgba(0, 0, 0, 0.42), 0 3px 20px 0 rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 10px 20px -12px rgba(0, 0, 0, 0.42), 0 3px 20px 0 rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
+}
+.area {
+    /* background-color: red; */
+    background-image: url("../img/filaBomberos.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    /* filter: grayscale(60%); */
+    /* opacity: 0.7; */
+    padding-bottom: 2rem;
+}
+
+.team-member {
+    margin-bottom: 3rem;
+    text-align: center;
+}
+
+.team-member img {
+    width: 14rem;
+    height: 14rem;
+    border: 0.5rem solid rgba(0, 0, 0, 0.1);
+}
+
+.titulo {
+    /* color: #081d58; */
+    font-size: 50px;
+    font-weight: 600;
+    line-height: 1;
+    letter-spacing: -.05rem;
+    padding-top: 2rem;
+    /* -webkit-text-stroke: 2px black; */
+}
+
+.fh-section-title{
+    font-size: 30px;
+    font-weight: 400;
+    padding-bottom: 15px;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.textp {
+    display: -webkit-box;
+    -webkit-line-clamp: 5;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.parrafo{
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: #000000;
+    /* color: #212529; */
+    font-family: Lora,'Times New Roman',serif;
+    text-align: justify;
+}
+
+.area li{
+    /* color:white; */
+    /* opacity: 1 !important; */
+}
+
+.card-title{
+    margin-bottom: 0 !important
+}
+.map-container{
+    height: 25rem;
+    position: relative;
+}
+
+.map-container iframe{
+    height:100%;
+    width:100%;
+}
+
+.dropdown-submenu {
+  position: relative;
+}
+
+.dropdown-submenu a::after {
+  transform: rotate(-90deg);
+  position: absolute;
+  right: 6px;
+  top: .8em;
+}
+
+.dropdown-submenu .dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-left: .1rem;
+  margin-right: .1rem;
+}
+
+p.date {
+    color:#ccc;
+    font-family: georgia, serif;
+    font-size: 12px;
+    font-style: italic;
+}
+
+@media (max-width: 575.98px)  {
+    .carousel-title{
+        font-size: 2.5rem;
+    }
+}
